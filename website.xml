@@ -1,0 +1,12 @@
+<Context path="/ancestrysite" docBase="C:\Users\Tyler\Desktop\10\ancestrysite\web" >
+  <Resource name="datasourceForAncestryDB"
+            type="javax.sql.DataSource"
+            auth="Container"
+            maxActive="10"
+            maxIdle="3" 
+            maxWait="10000"
+            username="ancestryDBUser" 
+            password="ancestryDBPwd" 
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/ancestryDB?autoReconnect=true" />
+</Context>
